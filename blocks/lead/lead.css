@@ -1,19 +1,25 @@
 .lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 0 148px;
+  margin: 0;
 }
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .lead {
-          padding: 0 48px;
-        }
+
+@media screen and (max-width: 1279px) {
+  .lead {
+    padding: 0 48px;
+  }
 }
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .lead {
-          padding: 0;
-        }
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    padding: 0;
+  }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
-    .lead {
-          padding: 0;
-          object-fit: cover;
-        }
+
+@media screen and (max-width: 767px) {
+  .lead {
+    object-fit: cover;
+  }
 }

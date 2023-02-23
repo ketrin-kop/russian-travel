@@ -5,11 +5,11 @@
   padding-bottom: 33px;
   box-sizing: border-box;
   max-width: 690px;
-  min-height: 208px;
   margin: 0;
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
-    .intro__text {
-          max-width: 288px;
-        }
+
+@media screen and (max-width: 767px) {
+  .intro__text {
+    max-width: 288px;
+  }
 }
