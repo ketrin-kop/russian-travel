@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Путешествия по России</title>
-  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="./pages/index.css?v=24022023">
 </head>
 
 <body class="page">
@@ -35,11 +35,13 @@
         мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной
         стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
       </p>
-      <span class="intro__list">Часовых поясов 11</span>
-      <span class="intro__list">Объектов природного наследия ЮНЕСКО 12</span>
-      <span class="intro__list">Объектов культурного наследия ЮНЕСКО 16</span>
-      <span class="intro__list">Природных заповедников 105</span>
-      <span class="intro__list">Аэропортов 241</span>
+      <ul class="intro__list">
+        <li><span class="intro__list intro__list_weight">Часовых поясов </span>11</li>
+        <li><span class="intro__list intro__list_weight">Объектов природного наследия ЮНЕСКО </span>12</li>
+        <li><span class="intro__list intro__list_weight">Объектов культурного наследия ЮНЕСКО </span>16</li>
+        <li><span class="intro__list intro__list_weight">Природных заповедников </span>105</li>
+        <li><span class="intro__list intro__list_weight">Аэропортов </span>241</li>
+      </ul>
     </section>
     <section class="photo-grid">
       <ul class="photo-grid__list">
@@ -169,7 +171,6 @@
     </section>
     <section class="cover">
       <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
-        <div class="cover__background"></div>
         <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
         <p class="cover__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash; путешествие от&nbsp;столицы до&nbsp;Байкала на
           электричках.</p>
